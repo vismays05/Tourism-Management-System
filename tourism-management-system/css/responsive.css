@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+}
+
+@media only screen and (max-width: 767px) {
+	
+	
+	header{ position:relative;    background: #000;min-height: auto;}
+	a.brand{ text-align:center; display:block;}
+	ul.social a{ font-size: 12px;    padding: 0 5px;}
+	ul.social li {
+    display: inline-block;
+    float: none;
+}
+	ul.social {
+    margin-top: 0;
+    text-align: center;
+}
+	li.border_r:after{ height:15px}
+	ul.side-menu-list li a {
+		font-size: 22px;}
+	.slide_menu{ max-width:100%}
+	.pop_p, div#carousel-example-generic {
+    height: auto;
+	}
+	.carousel-caption{top: unset;
+    bottom: 0px;}
+	.carousel-caption h1{ font-size:8px;    margin: 0;}
+	.carousel-caption h2{ font-size:14px;margin-bottom: 10px;}
+	.btn-book{    padding: 5px 11px;}
+	.title-head{ font-size:24px}
+	.pop_p h3{ font-size:12px;}
+	#filters {
+    margin: 30px auto 0;
+
+    border-bottom: 0;
+    width: 100%;
+
+}
+	#filters li span {
+  
+    padding: 10px 5px;
+
+    font-size: 13px;
+}
+	span.filter.active {
+    border-bottom: 1px solid #ffcc33;
+}
+	.text-right{ text-align:center}
+	.tour h2 {
+		font-size: 26px;}
+	.tour p {
+   
+    margin: 10px 0px 20px;
+}
+	.subscribe h2 {
+		font-size: 26px;}
+	div#mc_embed_signup {
+    width: 100%;
+    margin: 20px auto 0px;
+}
+	footer {
+    padding: 30px 0 0;
+	}
+	ul.foot-menu {
+    margin-bottom: 10px;
+}
+	ul.foot-social {
+    float: none;
+    margin-top: 10px;
+    text-align: center;
+}
+	
+ul.foot-social li {
+    float: none;
+    display: inline-block;
+}
+	.owl-theme .owl-nav [class*=owl-]{ display:none;}
+	.nav-tabs>li>a {
+      padding: 6px 5px;
+    font-size: 10px;
+
+		margin-right: 0px;}
+	.nav-tabs>li.active>a:after{ top:20px}
+	.btn-view {
+    font-size: 12px;
+
+		padding: 8px 12px;}
+	section.trips a.btn-view, .package .btn-view {
+    margin-top: 10px;
+}
+	.package{ padding:0 0}
+	header.fix-nav {
+		position: unset;}
+	header.fix-nav button#menu_btn {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #222;
+    padding: 5px; z-index: 3
+}
+	.pop_caption{ display:none;}
+	.pop_p h3 a {
+    color: #fff;
+    background: rgba(0,0,0,0.65);
+    padding: 5px 5px;
+    font-size: 9px;
+}
+}
